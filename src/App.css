@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ui-grid {
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.column {
+  border-right: 1px solid gray;
+  padding: 1em;
+}
+
+.column span {
+  padding: 0.25em;
+}
+
+.column img {
+  vertical-align: middle;
+}
